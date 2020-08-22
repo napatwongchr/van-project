@@ -14,13 +14,15 @@
         pb="3px"
         cursor="pointer"
         :_hover="{ borderBottom: '3px solid white' }"
-      >เกี่ยวกับเรา</c-pseudo-box>
+        >เกี่ยวกับเรา</c-pseudo-box
+      >
       <c-pseudo-box
         font-size="xl"
         pb="3px"
         cursor="pointer"
         :_hover="{ borderBottom: '3px solid white' }"
-      >ติดต่อเรา</c-pseudo-box>
+        >ติดต่อเรา</c-pseudo-box
+      >
     </c-stack>
   </c-flex>
 </template>

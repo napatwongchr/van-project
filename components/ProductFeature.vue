@@ -3,7 +3,11 @@
     <c-heading as="h1" size="xl" my="20px" text-align="center"
       >บริการของเรา</c-heading
     >
-    <c-flex justify-content="center" align-items="center">
+    <c-flex
+      :flex-direction="['column', 'row', 'row', 'row']"
+      justify-content="center"
+      align-items="center"
+    >
       <service-card
         :icon-url="require('../assets/icons/safty-first.svg')"
         content-text="ปลอดภัยมาก่อน"

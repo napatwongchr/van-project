@@ -10,9 +10,8 @@
     <img
       id="svg-icon"
       :src="iconUrl"
-      width="100px"
-      height="100px"
-      fill="khaki"
+      :width="['60px', '60px', '100px', '100px']"
+      :height="['60px', '60px', '100px', '100px']"
     />
     <c-text mt="50px" font-size="30px">
       {{ contentText }}

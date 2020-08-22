@@ -3,14 +3,14 @@
     <c-heading as="h1" size="xl" my="20px" text-align="center"
       >ภาพบรรยากาศใช้งานจริง</c-heading
     >
-    <c-stack is-inline justify-content="center" spacing="10" mt="20px">
-      <c-flex>
+    <c-stack is-inline :flex-direction="['column', 'row', 'row', 'row']" justify-content="center" align-items="center" mt="20px">
+      <c-flex :my="['20px', '20px', '0px', '0px']" :mx="['0px', '0px', '20px', '20px']">
         <img src="https://picsum.photos/400/300"></img>
       </c-flex>
-       <c-flex>
+       <c-flex :my="['20px', '20px', '0px', '0px']" :mx="['0px', '0px', '20px', '20px']">
         <img src="https://picsum.photos/400/300"></img>
       </c-flex>
-       <c-flex>
+       <c-flex :my="['20px', '20px', '0px', '0px']" :mx="['0px', '0px', '20px', '20px']">
         <img src="https://picsum.photos/400/300"></img>
       </c-flex>
     </c-stack>
