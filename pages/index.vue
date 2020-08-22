@@ -1,10 +1,11 @@
 <template>
-  <div h="100%">
-    <Navbar />
-    <FeatureSection />
-    <ProductFeature />
-    <ProductFeedback />
-    <Footer />
+  <div>
+    <navbar />
+    <feature-section />
+    <product-feature />
+    <image-feature />
+    <product-review />
+    <footer-bar />
   </div>
 </template>
 
@@ -12,8 +13,9 @@
 import Navbar from "../components/Navbar"
 import FeatureSection from "../components/FeatureSection"
 import ProductFeature from "../components/ProductFeature"
-import ProductFeedback from "../components/ProductFeedback"
-import Footer from "../components/Footer"
+import ProductReview from "../components/ProductReview"
+import ImageFeature from "../components/ImageFeature"
+import FooterBar from "../components/FooterBar"
 
 export default {
   name: "Home",
@@ -21,8 +23,8 @@ export default {
     Navbar,
     FeatureSection,
     ProductFeature,
-    ProductFeedback,
-    Footer
+    ProductReview,
+    FooterBar
   }
 }
 </script>
