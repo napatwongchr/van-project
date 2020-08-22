@@ -14,7 +14,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: process.env.npm_package_name || "",
+    title: "WJ Transport",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -29,7 +29,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["~/assets/main.css"],
+  css: ["~/assets/fonts/kanit.css", "~/assets/main.css"],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -54,6 +54,7 @@ export default {
     "@nuxtjs/emotion",
     // Doc: https://github.com/nuxt/content
     "@nuxt/content",
+    "@nuxtjs/svg",
   ],
   /*
    ** Content module configuration
